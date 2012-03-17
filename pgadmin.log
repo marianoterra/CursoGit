@@ -1,0 +1,53 @@
+2011-10-25 06:10:37 ERROR  : Error connecting to the server: fe_sendauth: no password supplied
+
+2011-11-03 00:49:45 ERROR  : ERROR:  cache lookup failed for type 0
+2011-11-03 00:50:15 ERROR  : ERROR:  cache lookup failed for type 0
+2011-11-03 00:51:04 ERROR  : ERROR:  cache lookup failed for type 0
+2011-11-03 00:52:01 ERROR  : ERROR:  la relación «guias_pesca» ya existe
+2011-11-03 01:24:55 ERROR  : ERROR:  error de sintaxis en o cerca de «*»
+LINE 1: DELETE * FROM guias_pesca
+               ^
+2011-11-09 23:36:01 ERROR  : ERROR:  no existe la columna «colum_name»
+LINE 1: SELECT colum_name FROM information_schema.columns
+               ^
+2011-11-09 23:36:08 ERROR  : ERROR:  error de sintaxis en o cerca de «FROM»
+LINE 1: SELECT FROM information_schema.columns
+               ^
+2011-11-21 19:25:26 ERROR  : ERROR:  no existe la columna «ali»
+LINE 1: select * from guias_turismo where apellido = Ali
+                                                     ^
+2011-11-21 19:57:15 ERROR  : ERROR:  error de sintaxis en o cerca de «{»
+LINE 1: select * from guias_turismo where  nombre LIKE {'%maria%'}
+                                                       ^
+2011-12-05 12:00:20 ERROR  : ERROR:  la base de datos de origen «template_postgis» está siendo utilizada por otros usuarios
+DETAIL:  Hay otras 1 sesiones usando la base de datos.
+2011-12-05 12:00:44 ERROR  : ERROR:  la base de datos de origen «template_postgis» está siendo utilizada por otros usuarios
+DETAIL:  Hay otras 1 sesiones usando la base de datos.
+2011-12-05 12:00:56 ERROR  : ERROR:  la base de datos de origen «postgis» está siendo utilizada por otros usuarios
+DETAIL:  Hay otras 1 sesiones usando la base de datos.
+2011-12-05 12:01:56 ERROR  : ERROR:  la base de datos de origen «template_postgis» está siendo utilizada por otros usuarios
+DETAIL:  Hay otras 1 sesiones usando la base de datos.
+2011-12-06 12:21:16 ERROR  : ERROR:  la columna «id» contiene valores nulos
+2011-12-06 12:21:25 ERROR  : ERROR:  la columna «id» contiene valores nulos
+2011-12-06 12:25:00 ERROR  : ERROR:  no se pudo crear el índice único «guias_turismo_pkey»
+DETAIL:  La llave (legajo)=(S-03) está duplicada.
+2011-12-06 16:53:06 ERROR  : ERROR:  la columna «legajo» contiene valores nulos
+2011-12-06 16:57:43 ERROR  : ERROR:  la columna «id» contiene valores nulos
+2011-12-06 17:28:51 ERROR  : ERROR:  el operador no existe: smallint[] = integer
+LINE 1: select * from guias_pesca where id=1
+                                          ^
+HINT:  Ningún operador coincide con el nombre y el tipo de los argumentos. Puede desear agregar conversiones explícitas de tipos.
+2011-12-06 17:38:09 ERROR  : ERROR:  la columna «id» contiene valores nulos
+2011-12-06 17:38:35 ERROR  : ERROR:  la columna «id» contiene valores nulos
+2011-12-06 17:38:57 ERROR  : ERROR:  la columna «id» contiene valores nulos
+2011-12-06 17:39:09 ERROR  : ERROR:  la columna «id» contiene valores nulos
+2011-12-06 17:39:36 ERROR  : ERROR:  la columna «id» contiene valores nulos
+2011-12-06 17:51:56 ERROR  : ERROR:  la relación «mysecuencia» ya existe
+2011-12-06 17:52:11 ERROR  : ERROR:  no existe la relación «guias_pesca»
+2011-12-06 17:53:14 ERROR  : ERROR:  ya existe la columna «id» en la relación «guias_pesca»
+2011-12-06 17:53:48 ERROR  : ERROR:  error de sintaxis en o cerca de «id»
+LINE 1: drop id from guias_pesca
+             ^
+2011-12-06 17:55:08 ERROR  : ERROR:  no existe la relación «mysecuencia»
+2011-12-06 17:56:25 ERROR  : ERROR:  la relación «mysecuencia» ya existe
+2011-12-06 17:56:40 ERROR  : ERROR:  ya existe la columna «id» en la relación «guias_turismo»
